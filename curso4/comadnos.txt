@@ -1,0 +1,24 @@
+INSERTAR:
+insert into USERS (name,email) VALUES("matias","mati@gmial.com")
+
+Eliminar:
+DELETE FROM Users WHERE email="mati@gmial.com"
+
+Actualizar:
+
+UPDATE Users set email="pablo.jara@gmial.com" where name="pablo"
+
+Lo que hace es cambiar el email de pablo a pablo.jara@gmial.com
+
+seleccionar todo:
+select*from Users
+
+select*from Users where email="cala@gmail.com"
+
+Tambien podes ordenarlos: 
+
+select*from Users order by nombre de la caracterisitica
+
+Tambien podes agregar data asi y las linkeamos:
+
+select Album.title, Artist.name from Album join Artist on Album.artist_id = Artist.id
